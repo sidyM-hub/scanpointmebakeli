@@ -1,0 +1,11 @@
+asgiref==3.6.0
+colorama==0.4.6
+Django==4.2.1
+psycopg2==2.9.6
+psycopg2-binary==2.9.6
+pypng==0.20220715.0
+pyzbar==0.1.9
+qrcode==7.4.2
+sqlparse==0.4.4
+typing_extensions==4.5.0
+tzdata==2023.3

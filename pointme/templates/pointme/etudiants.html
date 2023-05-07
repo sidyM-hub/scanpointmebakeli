@@ -1,0 +1,18 @@
+
+{% block content %}
+<h1>ScanPointMe - Liste des étudiants scannés</h1>
+<table>
+  <thead>
+    
+  </thead>
+  <tbody>
+  {% for etudiant in etudiants %}
+    <tr>
+      <td>{{ etudiant.nom }}</td>
+      <td>{{ etudiant.telephone }}</td>
+      <td>{{ etudiant.date_scan }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
